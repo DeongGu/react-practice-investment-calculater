@@ -1,0 +1,24 @@
+{
+  "name": "react-practice-investment-calculater",
+  "version": "1.0.0",
+  "description": "Practice solving React assignments independently",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeongGu/react-practice-investment-calculater.git"
+  },
+  "keywords": [
+    "react",
+    "practice",
+    "calculater"
+  ],
+  "author": "Deong gu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeongGu/react-practice-investment-calculater/issues"
+  },
+  "homepage": "https://github.com/DeongGu/react-practice-investment-calculater#readme"
+}
