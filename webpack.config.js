@@ -74,6 +74,9 @@ export default {
     allowedHosts: "auto",
   },
   resolve: {
+    alias: {
+      "@components": path.resolve(process.cwd(), "src/components"),
+    },
     extensions: [".tsx", ".ts", ".js", ".jsx"],
   },
 };
