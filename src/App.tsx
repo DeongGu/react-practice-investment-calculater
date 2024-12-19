@@ -1,9 +1,7 @@
-import React from "react";
-
 export default function App() {
   return (
-    <React.Fragment>
-      <div>안녕?</div>
-    </React.Fragment>
+    <>
+      <img src="logo.png" alt="로고이미지" />
+    </>
   );
 }
