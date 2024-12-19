@@ -1,5 +1,6 @@
 import path from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import CopyWebpackPlugin from "copy-webpack-plugin";
 
 export default {
   entry: "./src/index.tsx",
@@ -49,6 +50,10 @@ export default {
     new HtmlWebpackPlugin({
       template: "./src/index.html",
       filename: "index.html",
+    }),
+
+    new CopyWebpackPlugin({
+      patterns: [{ from: "public", to: "" }],
     }),
   ],
   devServer: {
